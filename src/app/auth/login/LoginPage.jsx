@@ -72,7 +72,7 @@ const LoginPage = () => {
                 alt="Логотип"
                 sx={{
                     width: {xs: "260px", sm: "300px", md: "350px"}, // Адаптивный размер логотипа
-                    height: "auto", marginBottom: {xs: 1, sm: 2}, // Адаптивный отступ снизу для разных экранов
+                    height: "auto", marginBottom: {xs: -2, sm: -1}, // Адаптивный отступ снизу для разных экранов
                     display: "block", marginLeft: "auto", marginRight: "auto",
                 }}
             />
