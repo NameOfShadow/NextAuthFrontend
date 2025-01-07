@@ -1,7 +1,8 @@
 import React from "react";
 import {Button, Container, CssBaseline, Paper, Typography} from "@mui/material";
 import {ErrorOutline} from "@mui/icons-material";
-import {useNavigate} from "react-router-dom"; // Иконка ошибки
+import {useNavigate, useParams} from "react-router-dom"; // Иконка ошибки
+
 
 const RegisterFail = () => {
 
@@ -10,6 +11,9 @@ const RegisterFail = () => {
     const handleNavigateToLogin = () => {
         navigate("/register"); // Переход на страницу регистрации
     };
+
+    const {message} = useParams();
+
     return (<>
         <CssBaseline/>
         <Container
@@ -40,6 +44,7 @@ const RegisterFail = () => {
                 </Typography>
                 <Typography variant="body1" sx={{mt: 2, color: "white"}}>
                     Мы не смогли выполнить операцию. Пожалуйста, проверьте введенные данные и попробуйте снова.
+                    Ошибка: {message}
                 </Typography>
                 <Button
                     variant="contained"

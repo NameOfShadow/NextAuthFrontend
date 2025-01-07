@@ -11,10 +11,10 @@ const router = createBrowserRouter([
     { path: "/*", element: <RegisterPage /> },
   { path: "/login", element: <LoginPage /> },
   { path: "/login/success", element: <LoginSuccess /> },
-  { path: "/login/fail", element: <LoginFail /> },
+  { path: "/login/fail/:message", element: <LoginFail /> },
   { path: "/register", element: <RegisterPage /> },
   { path: "/register/success", element: <RegisterSuccess /> },
-  { path: "/register/fail", element: <RegisterFail /> },
+  { path: "/register/fail/:message", element: <RegisterFail /> },
 ]);
 
 const AppRoutes = () => <RouterProvider router={router}/>;

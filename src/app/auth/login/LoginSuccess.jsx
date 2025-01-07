@@ -38,7 +38,7 @@ const LoginSuccess = () => {
                         Успех!
                     </Typography>
                     <Typography variant="body1" sx={{mt: 2, color: "white"}}>
-                        Вы успешно зарегистрировались! Добро пожаловать в нашу систему.
+                        Вы успешно вошли в аккаунт! Добро пожаловать в нашу систему!
                     </Typography>
                 </Paper>
             </Container>
