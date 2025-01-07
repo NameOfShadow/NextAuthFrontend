@@ -34,12 +34,12 @@
 ### 1. Клонируйте репозиторий:
 
 ```bash
-git clone ...
+git clone https://github.com/NameOfShadow/NextAuthFrontend
 ```
 
 ### 2. Перейдите в директорию проекта:
 ```bash
-cd nextauth_frontend
+cd NextAuthFrontend
 ```
 
 ### 3. Установите зависимости:
