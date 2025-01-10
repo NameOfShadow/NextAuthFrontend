@@ -52,7 +52,7 @@ yarn
 yarn dev
 ```
 
-Приложение будет доступно по адресу http://localhost:5173.
+Приложение будет доступно по адресу http://localhost:5173
 
 ## Разработчик
 **Email:** [0nameofshadow0@gmail.com](mailto:0nameofshadow0@gmail.com)  
