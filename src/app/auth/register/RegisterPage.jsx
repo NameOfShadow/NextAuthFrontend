@@ -53,7 +53,7 @@ const RegisterPage = () => {
         };
 
         try {
-            const response = await fetch("http://localhost:8001/api/register/", {
+            const response = await fetch("http://noplayground.ru/nextauth/api/register/", {
                 method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(registrationData), // Отправляем объект с данными
             });
 

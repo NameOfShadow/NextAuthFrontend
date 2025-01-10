@@ -9,12 +9,12 @@ import RegisterFail from "../auth/register/RegisterFail";
 
 const router = createBrowserRouter([
     { path: "/*", element: <RegisterPage /> },
-  { path: "/login", element: <LoginPage /> },
-  { path: "/login/success", element: <LoginSuccess /> },
-  { path: "/login/fail/:message", element: <LoginFail /> },
-  { path: "/register", element: <RegisterPage /> },
-  { path: "/register/success", element: <RegisterSuccess /> },
-  { path: "/register/fail/:message", element: <RegisterFail /> },
+  { path: "/nextauth/login", element: <LoginPage /> },
+  { path: "/nextauth/login/success", element: <LoginSuccess /> },
+  { path: "/nextauth/login/fail/:message", element: <LoginFail /> },
+  { path: "/nextauth/register", element: <RegisterPage /> },
+  { path: "/nextauth/register/success", element: <RegisterSuccess /> },
+  { path: "/nextauth/register/fail/:message", element: <RegisterFail /> },
 ]);
 
 const AppRoutes = () => <RouterProvider router={router}/>;
